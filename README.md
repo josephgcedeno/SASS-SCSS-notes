@@ -16,8 +16,8 @@ eg. src: styles.scss - dist: styles.css `
 
 - **Formating output from scss 3 types:** 
 	1. sass --watch src/scss:dist/css --style compact
-	2. sass --watch src/scss:dist/css --style compressed
-	3. sass --watch src/scss:dist/css --style expanded 
+	1. sass --watch src/scss:dist/css --style compressed
+	1. sass --watch src/scss:dist/css --style expanded 
 
 - **Check the example sources at:** src/scss/base/*
 
