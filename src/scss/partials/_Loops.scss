@@ -1,0 +1,58 @@
+//FOR LOOP
+//@for $var from <start> trough <end>
+
+//@for $i from 1 through 4
+//{
+//	$width: percentage( 1 / $i );
+//
+//	.column-#{$i}{
+//		width: $width;
+//	}
+//}
+
+//While loop
+//@while $var something int
+//$num: 6;
+ 
+//@while $num > 0 
+//{
+//	$width: percentage( 1 / $num );
+//
+//	.column-#{$num}
+//	{
+//		width: $width;
+//	}
+//
+//	$num: $num - 1;
+//}
+
+
+//Each loop
+//@each key,value in array
+
+$white: #fff;
+$black: #000;
+$red: #f00;
+$primary: #e57373;
+$secondary: #333;
+
+
+$colors: (
+		"white": $white,
+		"black": $black,
+		"red": $red,
+		"primary": $primary,
+		"secondary": $secondary
+	);
+
+@each $color , $hex in $colors
+{
+	.text-#{$color} // concat
+	{
+		color: $hex;
+	}
+	.background-#{$color}
+	{
+		background-color: $hex;
+	}
+}

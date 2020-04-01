@@ -1,0 +1,20 @@
+$colortheme: #e57373;
+
+a{
+	font-family: sans-serif;
+	color: $colortheme;
+	&:hover,  //& = outside tag &=a	
+	&:focus,  
+	&:active{
+		color: blue;
+	} 
+
+	&.link-class{ //another tag a with different class
+		 color: green;
+		 &:hover,  //& = outside tag &=a	
+		 &:focus,  
+		 &:active{
+			color: black;
+	} 
+	}
+}

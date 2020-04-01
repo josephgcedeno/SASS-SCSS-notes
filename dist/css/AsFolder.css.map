@@ -1,0 +1,7 @@
+{
+"version": 3,
+"mappings": "AAAA,MAAM;EACL,gBAAgB,EAAE,OAAO;AACzB,iBAAU;EACT,UAAU,EAAE,cAAc;AAC1B,0BAAU;EACT,aAAa,EAAC,GAAG",
+"sources": ["../../src/scss/AsFolder.scss"],
+"names": [],
+"file": "AsFolder.css"
+}

@@ -1,0 +1,10 @@
+$colortheme: #e57373;
+$border-width: 2px;
+ .border-blue{
+ 	border-color:blue;
+ 	border-width:$border-width;
+ }
+ .border-red{
+ 	border-color:red;
+ 	border-width:$border-width;
+ }

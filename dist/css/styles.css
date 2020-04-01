@@ -1,0 +1,218 @@
+.first-class, .second-class {
+  color: #f00;
+  font-family: sans-serif;
+  text-decoration: underline;
+}
+
+.second-class {
+  border-color: #fff;
+}
+
+.border-blue {
+  border-color: blue;
+  border-width: 2px;
+}
+
+.border-red {
+  border-color: red;
+  border-width: 2px;
+}
+
+a {
+  font-family: sans-serif;
+  color: #e57373;
+}
+a:hover, a:focus, a:active {
+  color: blue;
+}
+a.link-class {
+  color: green;
+}
+a.link-class:hover, a.link-class:focus, a.link-class:active {
+  color: black;
+}
+
+.half {
+  height: 732.5px;
+}
+
+.half1 {
+  height: 711.66667px;
+}
+
+.half2 {
+  height: 707.5px;
+}
+
+.box1 {
+  -webkit-transform: 320ms ease;
+  -moz-transform: 320ms ease;
+  -ms-transform: 320ms ease;
+  -o-transform: 320ms ease;
+  transform: 320ms ease;
+}
+
+.box2 {
+  -webkit-transform: 100ms ease;
+  -moz-transform: 100ms ease;
+  -ms-transform: 100ms ease;
+  -o-transform: 100ms ease;
+  transform: 100ms ease;
+}
+
+.box3 {
+  -webkit-transform: 60ms ease;
+  -moz-transform: 60ms ease;
+  -ms-transform: 60ms ease;
+  -o-transform: 60ms ease;
+  transform: 60ms ease;
+}
+
+.translateX {
+  -webkit-transform: translateX(15px);
+  -moz-transform: translateX(15px);
+  -ms-transform: translateX(15px);
+  -o-transform: translateX(15px);
+  transform: translateX(15px);
+}
+
+.transformX {
+  -webkit-transform: translateX(11px);
+  -moz-transform: translateX(11px);
+  -ms-transform: translateX(11px);
+  -o-transform: translateX(11px);
+  transform: translateX(11px);
+}
+
+.first-class, .second-class {
+  color: #f00;
+  font-family: sans-serif;
+  text-decoration: underline;
+}
+
+.second-class {
+  border-color: #fff;
+}
+
+.half1 {
+  height: 711.66667px;
+}
+
+.half2 {
+  height: 707.5px;
+}
+
+html, body {
+  margin: 0;
+  padding: 0;
+}
+
+.half {
+  height: 732.5px;
+}
+
+.box1 {
+  -webkit-transform: 320ms ease;
+  -moz-transform: 320ms ease;
+  -ms-transform: 320ms ease;
+  -o-transform: 320ms ease;
+  transform: 320ms ease;
+}
+
+.box2 {
+  -webkit-transform: 100ms ease;
+  -moz-transform: 100ms ease;
+  -ms-transform: 100ms ease;
+  -o-transform: 100ms ease;
+  transform: 100ms ease;
+}
+
+.box3 {
+  -webkit-transform: 60ms ease;
+  -moz-transform: 60ms ease;
+  -ms-transform: 60ms ease;
+  -o-transform: 60ms ease;
+  transform: 60ms ease;
+}
+
+.translateX {
+  -webkit-transform: translateX(15px);
+  -moz-transform: translateX(15px);
+  -ms-transform: translateX(15px);
+  -o-transform: translateX(15px);
+  transform: translateX(15px);
+}
+
+.transformX {
+  -webkit-transform: translateX(11px);
+  -moz-transform: translateX(11px);
+  -ms-transform: translateX(11px);
+  -o-transform: translateX(11px);
+  transform: translateX(11px);
+}
+
+a {
+  font-family: sans-serif;
+  color: #e57373;
+}
+a:hover, a:focus, a:active {
+  color: blue;
+}
+a.link-class {
+  color: green;
+}
+a.link-class:hover, a.link-class:focus, a.link-class:active {
+  color: black;
+}
+
+.border-blue {
+  border-color: blue;
+  border-width: 2px;
+}
+
+.border-red {
+  border-color: red;
+  border-width: 2px;
+}
+
+.text-white {
+  color: #fff;
+}
+
+.background-white {
+  background-color: #fff;
+}
+
+.text-black {
+  color: #000;
+}
+
+.background-black {
+  background-color: #000;
+}
+
+.text-red {
+  color: #f00;
+}
+
+.background-red {
+  background-color: #f00;
+}
+
+.text-primary {
+  color: #e57373;
+}
+
+.background-primary {
+  background-color: #e57373;
+}
+
+.text-secondary {
+  color: #333;
+}
+
+.background-secondary {
+  background-color: #333;
+}
+
+/*# sourceMappingURL=styles.css.map */
